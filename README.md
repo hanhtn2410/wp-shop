@@ -1,8 +1,9 @@
-** Dev **
+**Dev**
 1. Create and import database
 2. Open source/wp-config.php file and change settings config
 3. Config virtual host (Xampp ~apache folder/conf/extra/httpd-vhosts.conf)<br>
-Example: 
+Example: <br>
+```
 Listen *:8294
 <VirtualHost *:8294>
     ServerName localhost
@@ -14,4 +15,5 @@ Listen *:8294
 		Require all granted
     </Directory>
 </VirtualHost>
+```
 4. Start apache 
